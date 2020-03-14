@@ -101,12 +101,13 @@
 |926|[Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)|[[Java]](./900-1000q/926.java)|Medium|
 
 ##### [Problems 600-700](./600-700q/)
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[[Java]](./src/array/TopKFrequentWords.java)|Medium|
 |681|[Next Closest Time ](https://leetcode.com/problems/next-closest-time)|[[Java]](./600-700q/681.java)|Medium|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)|[[Java]](./600-700/674.java)|Easy|
 |673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence)|[[Java]](./600-700q/673.java)|Medium|
-|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[[Java]](./array/TopKFrequentWords.java)|Medium|
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[[Java]](./src/tree/maxwidth/MaxWidth.java)|Medium|[[Docs]](./src/tree/maxwidth/maxWidth.md)
 
 
 ##### [Problems 500-600](./500-600Q/)
