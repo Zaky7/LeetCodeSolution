@@ -18,6 +18,10 @@ public class Util {
          } else if(len1 == 0) {
              throw new UnsupportedOperationException("One of the Array is Empty");
          } else {
+
+             printArr(arr1);
+             printArr(arr2);
+
              for(int i=0; i<len1; i++) {
                  if(arr1[i] != arr2[i]) {
                      throw new UnsupportedOperationException("Expected " + arr1[i] + " to equal to " + arr2[i]);

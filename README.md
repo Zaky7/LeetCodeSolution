@@ -13,12 +13,19 @@
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[[Java]](./src/tree/maxwidth/MaxWidth.java)|Medium|[[Docs]](./src/tree/maxwidth/maxWidth.md)
 
 
-##### [Problems 900-1000](./600-700q/)
+
+##### [Problems 200-300]
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|977|[Squares of a Sorted Array](https://leetcode.com/problems/product-of-array-except-self/)|[[Java]](./src/array/ProductOfArrayExceptSelf.java)|Medium|[[Docs]](./src/array/ProductOfArrayExceptSelf.md)
+
+
+##### [Problems 900-1000]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[[Java]](./src/array/SquaresOfSortedArray.java)|Medium|[[Docs]](./src/array/SquaresOfSortedArray.md)
 
-##### [Problems 1000-1100](./600-700q/)
+##### [Problems 1000-1100]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |1013|[Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/)|[[Java]](./src/array/PartitionArrayThreeParts.java)|Medium|[[Docs]](./src/array/PartitionArrayThreeParts.md)
