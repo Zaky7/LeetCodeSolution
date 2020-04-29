@@ -68,7 +68,8 @@ class ValidParentThesisString {
                 "((*))",
                 "(",
                 " ",
-                "(*" };
+                "(*" }
+                ;
 
         for(int i=0, n=str.length; i<n; i++) {
             System.out.println("String: " + str[i] + " is valid " + vts.checkValidString(str[i]));
