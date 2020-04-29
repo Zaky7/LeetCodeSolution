@@ -5,7 +5,7 @@ public class PartitionArrayThreeParts {
         int[] testArr = {0,2,1,-6,6,-7,9,1,2,0,1};
         PartitionArrayThreeParts parray = new PartitionArrayThreeParts();
         // Ans true
-        parray.canThreePartsEqualSum(testArr)
+        parray.canThreePartsEqualSum(testArr);
     }
 
     public boolean canThreePartsEqualSum(int[] A) {
