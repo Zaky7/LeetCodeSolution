@@ -1,7 +1,9 @@
 package array;
 
 
-public class ProductOfArrayExceptSelf { 
+import java.util.Arrays;
+
+public class ProductOfArrayExceptSelf {
 
    public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
