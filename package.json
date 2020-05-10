@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Zaky7/LeetCodeSolution#readme",
   "devDependencies": {
+    "chalk": "^4.0.0",
     "inquirer": "^7.1.0",
     "mkdirp": "^1.0.4",
     "ora": "^4.0.4",
