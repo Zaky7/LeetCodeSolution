@@ -1,0 +1,29 @@
+{
+  "name": "leetcodesolution",
+  "version": "1.0.0",
+  "description": "![Language](https://img.shields.io/badge/Language-[Java]-orange.svg?logo=[Java]&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add:entry": "node ./src/addEntry.js",
+    "format:write": "prettier src/**/*.{ts,js,json,md,scss} --write",
+    "format:test": "prettier src/**/*.{ts,js,json,md,scss} --list-different"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaky7/LeetCodeSolution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaky7/LeetCodeSolution/issues"
+  },
+  "homepage": "https://github.com/Zaky7/LeetCodeSolution#readme",
+  "devDependencies": {
+    "inquirer": "^7.1.0",
+    "mkdirp": "^1.0.4",
+    "ora": "^4.0.4",
+    "prettier": "^2.0.5"
+  }
+}

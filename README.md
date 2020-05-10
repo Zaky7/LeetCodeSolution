@@ -3,15 +3,11 @@
 ### LeetCode Algorithms
 
 
-##### [Problems 600-700]
+##### [Problems 0-100]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
-|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[[Java]](./src/array/TopKFrequentWords.java)|Medium|
-|681|[Next Closest Time ](https://leetcode.com/problems/next-closest-time)|[[Java]](./600-700q/681.java)|Medium|
-|678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[[Java]](./src/array/SquaresOfSortedArray.java)|Medium|[[Docs]](./src/array/SquaresOfSortedArray.md)
-|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)|[[Java]](./600-700/674.java)|Easy|
-|673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence)|[[Java]](./600-700q/673.java)|Medium|
-|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[[Java]](./src/tree/maxwidth/MaxWidth.java)|Medium|[[Docs]](./src/tree/maxwidth/maxWidth.md)
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDocs/SearchInSortedArray.md)
+|33|[ Jump Game](https://leetcode.com/problems/jump-game/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDocs/SearchInSortedArray.md)
 
 
 
@@ -25,6 +21,17 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[[Java]](./src/array/NumOfSubArrWithSumK.java)|Medium|[[Docs]](./src/arrayDocs/NumOfSubArrWithSumK.md)
+
+##### [Problems 600-700]
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[[Java]](./src/array/TopKFrequentWords.java)|Medium|
+|681|[Next Closest Time ](https://leetcode.com/problems/next-closest-time)|[[Java]](./600-700q/681.java)|Medium|
+|678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[[Java]](./src/array/SquaresOfSortedArray.java)|Medium|[[Docs]](./src/array/SquaresOfSortedArray.md)
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)|[[Java]](./600-700/674.java)|Easy|
+|673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence)|[[Java]](./600-700q/673.java)|Medium|
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[[Java]](./src/tree/maxwidth/MaxWidth.java)|Medium|[[Docs]](./src/tree/maxwidth/maxWidth.md)
+
 
 
 ##### [Problems 900-1000]
