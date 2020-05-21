@@ -7,7 +7,6 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDocs/SearchInSortedArray.md)
-|33|[ Jump Game](https://leetcode.com/problems/jump-game/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDocs/SearchInSortedArray.md)
 
 
 
@@ -15,6 +14,8 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[[Java]](./src/array/ProductOfArrayExceptSelf.java)|Medium|[[Docs]](./src/array/ProductOfArrayExceptSelf.md)
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[[Java]](./src/array/FirstBadVersion.java)|Easy|[[Docs]](./src/arrayDoc/FirstBadVersion.md)
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[[Java]](./src/math/NimGame.java)|Easy|[[Docs]](./src/mathDoc/NimGame.md)
 
 
 ##### [Problems 500-600]    
