@@ -1,3 +1,5 @@
+package math;
+
 class NimGame {
     final int DP_SIZE = 4;
     public boolean canWinNim(int n) {

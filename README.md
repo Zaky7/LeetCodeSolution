@@ -6,9 +6,13 @@
 ##### [Problems 0-100]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
-|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDocs/SearchInSortedArray.md)
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDoc/SearchInSortedArray.md)
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[[Java]](./src/recursionOrDp/JumpGame.java)|Medium|[[Docs]](./src/recursionOrDpDoc/JumpGame.md)
 
-
+##### [Problems 100-200]
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[[Java]](./src/recursionOrDp/LRUCache.java)|Medium|[[Docs]](./src/recursionOrDpDoc/LRUCache.md)
 
 ##### [Problems 200-300]
 | # | Title | Solution | Difficulty | Docs |
@@ -21,7 +25,7 @@
 ##### [Problems 500-600]    
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
-|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[[Java]](./src/array/NumOfSubArrWithSumK.java)|Medium|[[Docs]](./src/arrayDocs/NumOfSubArrWithSumK.md)
+|560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[[Java]](./src/array/NumOfSubArrWithSumK.java)|Medium|[[Docs]](./src/arrayDoc/NumOfSubArrWithSumK.md)
 
 ##### [Problems 600-700]
 | # | Title | Solution | Difficulty | Docs |
@@ -48,3 +52,7 @@
 
 
 
+##### [Problems 1100-1200]
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|1143|[Longest CommonSubsequence](https://leetcode.com/problems/longest-common-subsequence/)|[[Java]](./src/array/LongestCommonSubsequence.java)|Medium|[[Docs]](./src/arrayDoc/LongestCommonSubsequence.md)

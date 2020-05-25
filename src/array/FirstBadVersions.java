@@ -1,3 +1,7 @@
+
+
+
+
 public class FirstBadVersions extends VersionControl {
     public int firstBadVersion(int n) {
         // 1 is added since array indexing start from 0
