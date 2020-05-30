@@ -1,7 +1,6 @@
-
-
 public class VersionControl {
-	public boolean isBadVersion(int version) {
-	  return true;	
-	}
+
+  public boolean isBadVersion(int version) {
+    return true;
+  }
 }

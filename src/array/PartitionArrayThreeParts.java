@@ -1,5 +1,3 @@
-
-
 public class PartitionArrayThreeParts {
 
   public static void main(String[] args) {
