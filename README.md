@@ -1,6 +1,6 @@
 ![Language](https://img.shields.io/badge/Language-[Java]-orange.svg?logo=[Java]&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
-### LeetCode Algorithms
+### LeetCode Problems
 
 
 ##### [Problems 0-100] 
@@ -21,6 +21,7 @@
 |---| ----- | -------- | ---------- | ---- |
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[[Java]](./src/array/BitWiseAndOfNumberRange.java)|Medium|[[Docs]](./src/arrayDoc/BitWiseAndOfNumberRange.md)
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[[Java]](./src/array/ProductOfArrayExceptSelf.java)|Medium|[[Docs]](./src/array/ProductOfArrayExceptSelf.md)
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[[Java]](./src/string/ValidAnagram.java)|Easy|[[Docs]](./src/stringDoc/ValidAnagram.md)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[[Java]](./src/array/FirstBadVersion.java)|Easy|[[Docs]](./src/arrayDoc/FirstBadVersion.md)
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[[Java]](./src/math/NimGame.java)|Easy|[[Docs]](./src/mathDoc/NimGame.md)
 
@@ -60,3 +61,7 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |1143|[Longest CommonSubsequence](https://leetcode.com/problems/longest-common-subsequence/)|[[Java]](./src/array/LongestCommonSubsequence.java)|Medium|[[Docs]](./src/arrayDoc/LongestCommonSubsequence.md)
+
+
+
+
