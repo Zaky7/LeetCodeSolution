@@ -8,6 +8,7 @@
 |---| ----- | -------- | ---------- | ---- |
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDoc/SearchInSortedArray.md)
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[[Java]](./src/recursionOrDp/JumpGame.java)|Medium|[[Docs]](./src/recursionOrDpDoc/JumpGame.md)
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[[Java]](./src/recursionOrDp/EditDistance.java)|Hard|[[Docs]](./src/recursionOrDpDoc/EditDistance.md)
 
 
 ##### [Problems 100-200]
@@ -60,3 +61,8 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |1143|[Longest CommonSubsequence](https://leetcode.com/problems/longest-common-subsequence/)|[[Java]](./src/array/LongestCommonSubsequence.java)|Medium|[[Docs]](./src/arrayDoc/LongestCommonSubsequence.md)
+
+
+
+
+
