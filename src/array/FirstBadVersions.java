@@ -1,3 +1,5 @@
+package array;
+
 public class FirstBadVersions extends VersionControl {
 
   public int firstBadVersion(int n) {
