@@ -44,4 +44,35 @@ public class Util {
   public static void print(Object obj) {
     System.out.print(obj);
   }
+
+  public static void print2DArray(int[][] arr) {
+    int R = arr.length;
+    int C = arr[0].length;
+
+    System.out.println();
+    for(int i=0; i<R; i++) {
+      for(int j = 0; j<C; j++) {
+        System.out.print(arr[i][j] + " ");
+      }
+      System.out.println();
+    }
+    System.out.println();
+  }
+
+  public static void print2DArrayLeetCodeFormat(int[][] mat, int N) {
+    System.out.print("[");
+    for (int i = 0; i < N; i++) {
+
+      System.out.print("[");
+      for (int j = 0; j < N; j++) {
+        System.out.print(mat[i][j] + (j != (N-1) ? ", " : ""));
+      }
+      System.out.print("]" + (i != (N-1) ? ", " : ""));
+
+      if(i != (N-1)) {
+        System.out.println();
+      }
+    }
+    System.out.print("]");
+  }
 }
