@@ -12,6 +12,7 @@
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[[Java]](./src/recursionOrDp/JumpGame.java)|Medium|[[Docs]](./src/recursionOrDpDoc/JumpGame.md)
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[[Java]](./src/string/PermutationSequence.java)|Medium|[[Docs]](./src/stringDoc/PermutationSequence.md)
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[[Java]](./src/recursionOrDp/EditDistance.java)|Hard|[[Docs]](./src/recursionOrDpDoc/EditDistance.md)
+|86|[Partition List](https://leetcode.com/problems/partition-list/)|[[Java]](./src/linkedList/PartitionList.java)|Medium|[[Docs]](./src/linkedListDoc/PartitionList.md)
 
 
 ##### [Problems 100-200]
