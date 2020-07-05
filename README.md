@@ -16,6 +16,7 @@
 ##### [Problems 100-200]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[[Java]](./src/linkedList/CopyListWithRandomPointer.java)|Medium|[[Docs]](./src/linkedListDoc/CopyListWithRandomPointer.md)
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[[Java]](./src/recursionOrDp/LRUCache.java)|Medium|[[Docs]](./src/recursionOrDpDoc/LRUCache.md)
 
 
