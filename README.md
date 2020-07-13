@@ -26,6 +26,7 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |201|[Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)|[[Java]](./src/array/BitWiseAndOfNumberRange.java)|Medium|[[Docs]](./src/arrayDoc/BitWiseAndOfNumberRange.md)
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[[Java]](./src/linkedList/PalindromeLinkedList.java)|Easy|[[Docs]](./src/linkedListDoc/PalindromeLinkedList.md)
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[[Java]](./src/array/ProductOfArrayExceptSelf.java)|Medium|[[Docs]](./src/array/ProductOfArrayExceptSelf.md)
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[[Java]](./src/string/ValidAnagram.java)|Easy|[[Docs]](./src/stringDoc/ValidAnagram.md)
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[[Java]](./src/array/FirstBadVersion.java)|Easy|[[Docs]](./src/arrayDoc/FirstBadVersion.md)
@@ -67,6 +68,8 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |1143|[Longest CommonSubsequence](https://leetcode.com/problems/longest-common-subsequence/)|[[Java]](./src/array/LongestCommonSubsequence.java)|Medium|[[Docs]](./src/arrayDoc/LongestCommonSubsequence.md)
+
+
 
 
 
