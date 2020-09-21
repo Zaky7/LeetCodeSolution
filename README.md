@@ -74,3 +74,43 @@
 
 
 
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[[Java]](./src/recursionOrDp/LongestIncreasingSubsequence.java)|Medium|[[Docs]](./src/recursionOrDpDoc/LongestIncreasingSubsequence.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[[Java]](./src/recursionOrDp/LargestDivisibleSubset.java)|Medium|[[Docs]](./src/recursionOrDpDoc/LargestDivisibleSubset.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[[Java]](./src/recursionOrDp/MaximumLengthOfPairChain.java)|Medium|[[Docs]](./src/recursionOrDpDoc/MaximumLengthOfPairChain.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|673|[ Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)|[[Java]](./src/recursionOrDp/NumberOfLongestIncreasingSubsequence.java)|Medium|[[Docs]](./src/recursionOrDpDoc/NumberOfLongestIncreasingSubsequence.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[[Java]](./src/recursionOrDp/DeleteAndEarn.java)|Medium|[[Docs]](./src/recursionOrDpDoc/DeleteAndEarn.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[[Java]](./src/recursionOrDp/LongestStringChain.java)|Medium|[[Docs]](./src/recursionOrDpDoc/LongestStringChain.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|949|[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)|[[Java]](./src/math/LargestTimeForGivenDigits.java)|Easy|[[Docs]](./src/mathDoc/LargestTimeForGivenDigits.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|220|[Contains Duplicate3](https://leetcode.com/problems/contains-duplicate-iii/)|[[Java]](./src/array/ContainsDuplicate3.java)|Medium|[[Docs]](./src/arrayDoc/ContainsDuplicate3.md)
+
+
