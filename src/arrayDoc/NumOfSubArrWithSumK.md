@@ -43,22 +43,25 @@ Iterate over all the subArrays and check if the sum is equal to K then increment
     }
 ```
 
-## Efficent Solution.
+## Efficent Solution. 
+<pre>
 
-- An efficient solution is while traversing the array, store sum so far in currsum.
-- Also maintain count of different values of currsum in a map. If value of currsum is equal to desired sum at any instance increment count of subarrays by one or the value of currsum exceeds desired sum by currsum – sum.
-- From the map find number of subarrays previously found having sum equal to currsum-sum. Excluding all those subarrays from current subarray, gives new subarrays having desired sum. So increase count by the number of such subarrays.
-- Note that when currsum is equal to desired sum then also check number of subarrays previously having sum equal to 0. Excluding those subarrays from current subarray gives new subarrays having desired sum. Increase count by the number of subarrays having sum 0 in that case.
+<strong>
+T(n): O(n)
+S(n): O(n)
+</strong>
+- Take a variable subArrayWithSumk = 0 and currSum = 0
+- Now iterate over the array and add each element in currSum.
+- if currSum == k: 
+     Increment the subArrayWithSumK value
+- Also if map contains (currsum - k) value then we would also:
+     Increment the subArrayWithSumK value
+- Now check if currSum is present in the map <br>
+  if present then:
+        preSumMap.put(curr_sum, 1); <br>
+  else:
+        preSumMap.put(curr_sum, count + 1);
+</pre>
 
-### PseudoCode
-
-```html
-- We can create a Hashap of Integers. - Iterate over the array and calc the
-current sum of element - If current sum equals k then increment the count - Also
-check if current sum - k present in HashMap if present update the value of
-result count with value in Map - Also check if current sum present in HashMap if
-present then add the value of Key in count else set key to current_sum and value
-= 1
-```
 
 #### [[Code]](../array/NumOfSubArrWithSumK.java)
