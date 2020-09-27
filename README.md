@@ -3,9 +3,10 @@
 ### LeetCode Problems
 
 
-##### [Problems 0-100] 
-| # | Title | Solution | Difficulty | Docs | 
+##### [Problems 0-100]
+| # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[[Java]](./src/array/TwoSum.java)|Easy|[[Docs]](./src/arrayDoc/TwoSum.md)
 |19 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[[Java]](./src/linkedList/RemoveNthNodeFromEnd.java)|Medium|[[Docs]](./src/linkedListDoc/RemoveNthNodeFromEnd.md)
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDoc/SearchInSortedArray.md)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[[Java]](./src/array/RotateImage.java)|Medium|[[Docs]](./src/arrayDoc/RotateImage.md)
@@ -33,7 +34,7 @@
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[[Java]](./src/math/NimGame.java)|Easy|[[Docs]](./src/mathDoc/NimGame.md)
 
 
-##### [Problems 500-600]    
+##### [Problems 500-600]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[[Java]](./src/array/NumOfSubArrWithSumK.java)|Medium|[[Docs]](./src/arrayDoc/NumOfSubArrWithSumK.md)
@@ -112,5 +113,8 @@
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |220|[Contains Duplicate3](https://leetcode.com/problems/contains-duplicate-iii/)|[[Java]](./src/array/ContainsDuplicate3.java)|Medium|[[Docs]](./src/arrayDoc/ContainsDuplicate3.md)
+
+
+
 
 
