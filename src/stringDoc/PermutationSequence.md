@@ -25,13 +25,13 @@ Given n and k, return the kth permutation sequence.
 Input: n = 3, k = 3
 Output: "213"
 
+### Naive Solution:- 👶
 
-### Naive Solution:- 👶 
 - Generate string based on the value of n for eg. if n = 4 then str = "1234"
 - Now find all the permutation of the given string and store them in a list
 - Now return the kth string from the list
 
-``` java
+```java
 // T(n): O(2^n)
 // S(n): O(2^n)
 
@@ -82,7 +82,6 @@ private StringBuilder getStringSequence(int n) {
 
 ```
 
-
 ## Optmised Solution 😎 [Video Link]([https://www.youtube.com/watch?v=W9SIlE2jhBQ)
 
 You would notice since we have to return only particular sequence not whole set of sequence. We would find out a kth value.
@@ -93,21 +92,18 @@ Pseduocode
 - Also take an array and precompute the factorial of numbers from 1 to n.
 - Changed k = k - 1
 - Now we first find out the the partitionSize = factorial[n-1] and index of the char using
-    `index = k / partitions`
+  `index = k / partitions`
 - now we append char at index from sequence string into the result and remove it from the sequence string
-- we also update the k to k - (partitions * index) until n == 1
+- we also update the k to k - (partitions \* index) until n == 1
 
+## Dry run
 
-## Dry run 
 #### n= 5, k = 24
 
-
-| n | partition = (n-1)! | k -=(partition * index)  | index = k / partition | sequence | result |
-|---| ----- | -------- | ---------- | ---- | --- |
-| 5 | 24 | 23 | 0 | "12345" | "1" |
-| 4 | 6 | 23 | 3 | "2345" | "15" |
-| 3 | 4 | 5 | 1 | "234" | "153" |
-| 2 | 1 | 1 | 1 | "24" | "1534" |
-| 1 | 1 | 1 | 1 | "2" | "15432" |
-
-
+| n   | partition = (n-1)! | k -=(partition \* index) | index = k / partition | sequence | result  |
+| --- | ------------------ | ------------------------ | --------------------- | -------- | ------- |
+| 5   | 24                 | 23                       | 0                     | "12345"  | "1"     |
+| 4   | 6                  | 23                       | 3                     | "2345"   | "15"    |
+| 3   | 4                  | 5                        | 1                     | "234"    | "153"   |
+| 2   | 1                  | 1                        | 1                     | "24"     | "1534"  |
+| 1   | 1                  | 1                        | 1                     | "2"      | "15432" |

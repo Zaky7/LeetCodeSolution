@@ -28,7 +28,9 @@ public class BinaryMatrix {
   public int get(int row, int col) {
     //        System.out.println("Get called: "  + (this.callTracker++));
     if (row >= this.R || col >= this.C) {
-      throw new IllegalArgumentException("Index Out of Bound for Matrix Dimensions");
+      throw new IllegalArgumentException(
+        "Index Out of Bound for Matrix Dimensions"
+      );
     }
     return this.mat[row][col];
   }

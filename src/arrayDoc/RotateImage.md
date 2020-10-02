@@ -11,7 +11,7 @@ You have to rotate the image in-place, which means you have to modify the input 
 ##### Example 1:
 
 ```
-Given input matrix = 
+Given input matrix =
 [
   [1,2,3],
   [4,5,6],
@@ -58,21 +58,22 @@ Before Rotation     After Rotation
 After replacing element at below postion you would find out matrix get rotated in place
 
 - First we need to check for given **N = 3** whether an element belongs to either of the below category:
-  - First Row: element from (0,0) to (0,1)
-        <br/> - Rotate in order: // R -> D -> L -> U
 
-  - Last  Col: element from (0,2) to (1,2)
-        <br/> - Rotate in order: // D -> L -> U -> R
-  
-  - Last  Row: element from (2,2) to (2,1)
-        <br/> - Rotate in order: // L -> U -> R -> D
+  - First Row: element from (0,0) to (0,1)
+    <br/> - Rotate in order: // R -> D -> L -> U
+
+  - Last Col: element from (0,2) to (1,2)
+    <br/> - Rotate in order: // D -> L -> U -> R
+
+  - Last Row: element from (2,2) to (2,1)
+    <br/> - Rotate in order: // L -> U -> R -> D
 
   - First Col: element from (2,0) to (1,0)
-        <br/> - Rotate in order: // U -> R -> D -> L
+    <br/> - Rotate in order: // U -> R -> D -> L
 
 - After selecting the category we move as per category
-   if element belongs to the first row then we move N - 1 step in direction Right->Down-> Left --> U to reach next postion and replace both position value.
+  if element belongs to the first row then we move N - 1 step in direction Right->Down-> Left --> U to reach next postion and replace both position value.
 
-- Now need to repeat above alogrithm after reducing N by 2 
+- Now need to repeat above alogrithm after reducing N by 2
 
 - Base case if N == 1 return since single element is present

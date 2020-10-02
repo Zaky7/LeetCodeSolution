@@ -4,8 +4,8 @@ Just use simple binary search to find the first bad version
 
 ```
 - Take two variables start and end and intiailize them as 0 and n-1;
-- Now find the mid element and check it is a bad version 
-- if yes: 
+- Now find the mid element and check it is a bad version
+- if yes:
      if mid - 1 is good:
         return mid
      else:
@@ -18,4 +18,4 @@ Just use simple binary search to find the first bad version
 
 ```
 
-#### Caveat!!:  Use long otherwise value will overflow
+#### Caveat!!: Use long otherwise value will overflow

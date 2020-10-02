@@ -13,7 +13,9 @@ class ValidParentThesisString {
     for (int i = 0; i < n; i++) {
       char ch = s.charAt(i);
 
-      System.out.println("Index: " + i + " StacSize " + stack.size() + " Character: " + ch);
+      System.out.println(
+        "Index: " + i + " StacSize " + stack.size() + " Character: " + ch
+      );
       // Push into the stack if it empty
       if (stack.isEmpty()) {
         stack.push(ch);
@@ -63,7 +65,9 @@ class ValidParentThesisString {
     String[] str = { "()", "*((", "**", "((*))", "(", " ", "(*" };
 
     for (int i = 0, n = str.length; i < n; i++) {
-      System.out.println("String: " + str[i] + " is valid " + vts.checkValidString(str[i]));
+      System.out.println(
+        "String: " + str[i] + " is valid " + vts.checkValidString(str[i])
+      );
     }
   }
 }

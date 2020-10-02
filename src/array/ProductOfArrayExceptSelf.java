@@ -7,7 +7,9 @@ public class ProductOfArrayExceptSelf {
   public int[] productExceptSelf(int[] nums) {
     int n = nums.length;
     int[] output = new int[n];
-    int total_product = Arrays.stream(nums).reduce(1, (num1, num2) -> num1 * num2);
+    int total_product = Arrays
+      .stream(nums)
+      .reduce(1, (num1, num2) -> num1 * num2);
 
     for (int i = 0; i < n; i++) {
       output[i] = divide(total_product, nums[i]);

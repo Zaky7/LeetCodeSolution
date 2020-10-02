@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "add:entry": "node ./src/addEntry.js",
-    "format:write": "prettier src/**/*.{ts,js,json,md,scss} --write",
-    "format:test": "prettier src/**/*.{ts,js,json,md,scss} --list-different"
+    "prettify": "prettier src/**/*.{ts,js,json,md,scss,java} --write",
+    "prettier:test": "prettier src/**/*.{ts,js,json,md,scss,java} --list-different"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "inquirer": "^7.1.0",
     "mkdirp": "^1.0.4",
     "ora": "^4.0.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "prettier-plugin-java": "^0.8.2"
   }
 }

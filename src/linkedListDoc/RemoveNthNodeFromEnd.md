@@ -4,7 +4,7 @@ Pseudocode:-
 
 - Take 3 pointers ➡️ prev, slow and fast and initialized as follows
 
-```java    
+```java
     ListNode fastPtr = head;
     ListNode slowPtr = head;
     ListNode prevSlowPtr = null;
@@ -20,7 +20,7 @@ Pseudocode:-
     }
 ```
 
-- Now move the slow ptr and fast ptr until fast becomes null. 
+- Now move the slow ptr and fast ptr until fast becomes null.
 
 ```java
     while(fastPtr != null) {
@@ -34,7 +34,6 @@ Pseudocode:-
 
 - caveat ⚠️ handle case when node to be deleted is the **first node**.
 
-
 <br>
 <br>
 <br>
@@ -46,5 +45,3 @@ Pseudocode:-
 </div>
 <br>
 <br>
-
-

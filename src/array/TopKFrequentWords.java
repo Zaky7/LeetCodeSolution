@@ -4,7 +4,9 @@ import java.util.*;
 
 public class TopKFrequentWords {
 
-  public static HashMap<String, Integer> sortByValueAndName(HashMap<String, Integer> hm) {
+  public static HashMap<String, Integer> sortByValueAndName(
+    HashMap<String, Integer> hm
+  ) {
     List<Map.Entry<String, Integer>> list = new LinkedList<Map.Entry<String, Integer>>(
       hm.entrySet()
     );
@@ -14,7 +16,10 @@ public class TopKFrequentWords {
       new Comparator<Map.Entry<String, Integer>>() {
 
         @Override
-        public int compare(Map.Entry<String, Integer> m1, Map.Entry<String, Integer> m2) {
+        public int compare(
+          Map.Entry<String, Integer> m1,
+          Map.Entry<String, Integer> m2
+        ) {
           int valueCompareDesc = m2.getValue().compareTo(m1.getValue());
           int nameCompareAsc = m1.getKey().compareTo(m2.getKey());
 
@@ -63,7 +68,9 @@ public class TopKFrequentWords {
   public List<String> topKFrequent(String[] words, int k) {
     HashMap<String, Integer> wordFreqHashMap = createFrequencyMap(words);
     List<String> mostFrequentKWords = new ArrayList<>();
-    HashMap<String, Integer> sortedHashMap = sortByValueAndName(wordFreqHashMap);
+    HashMap<String, Integer> sortedHashMap = sortByValueAndName(
+      wordFreqHashMap
+    );
 
     // print the Initial hash Map
     printMap("Initial Hash Map", wordFreqHashMap);
@@ -85,7 +92,18 @@ public class TopKFrequentWords {
   }
 
   public static void main(String[] args) {
-    String[] list = { "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is" };
+    String[] list = {
+      "the",
+      "day",
+      "is",
+      "sunny",
+      "the",
+      "the",
+      "the",
+      "sunny",
+      "is",
+      "is",
+    };
     int k = 4;
     List<String> words = new TopKFrequentWords().topKFrequent(list, k);
     System.out.println(words);

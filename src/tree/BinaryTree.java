@@ -31,7 +31,11 @@ public class BinaryTree {
     return (2 * index + 1) == matchIndex;
   }
 
-  private TreeNode addNodeLevelOrderWise(TreeNode rootNode, Integer value, int index) {
+  private TreeNode addNodeLevelOrderWise(
+    TreeNode rootNode,
+    Integer value,
+    int index
+  ) {
     /* If root is null, return null */
     if (rootNode == null) {
       return null;

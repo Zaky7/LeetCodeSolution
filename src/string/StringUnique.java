@@ -58,15 +58,15 @@ class StringUnique {
 
   public boolean isUniqueBitwise(String str) {
     int checker = 0;
-    for(int i=0; i<str.length(); i++) {
-       int charCode = str.charAt(i) - 'a';
-       boolean isBitSet = (checker & (1 << charCode)) > 0;
-       
-       // If Bit set then return false duplicated character present
-       if(isBitSet) {
-         return false;
-       }
-       checker |= (1 << charCode);
+    for (int i = 0; i < str.length(); i++) {
+      int charCode = str.charAt(i) - 'a';
+      boolean isBitSet = (checker & (1 << charCode)) > 0;
+
+      // If Bit set then return false duplicated character present
+      if (isBitSet) {
+        return false;
+      }
+      checker |= (1 << charCode);
     }
     return true;
   }

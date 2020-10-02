@@ -43,7 +43,8 @@ Iterate over all the subArrays and check if the sum is equal to K then increment
     }
 ```
 
-## Efficent Solution. 
+## Efficent Solution.
+
 <pre>
 
 <strong>
@@ -62,6 +63,5 @@ S(n): O(n)
   else:
         preSumMap.put(curr_sum, count + 1);
 </pre>
-
 
 #### [[Code]](../array/NumOfSubArrWithSumK.java)

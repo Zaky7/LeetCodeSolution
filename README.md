@@ -118,3 +118,13 @@
 
 
 
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[[Java]](src/array/ThreeSum.java)|Medium|[[Docs]](./src/arrayDoc/ThreeSum.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|39|[CombinationSum](https://leetcode.com/problems/combination-sum/)|[[Java]](./src/array/CombinationSum.java)|Medium|[[Docs]](./src/arrayDoc/CombinationSum.md)
+
+

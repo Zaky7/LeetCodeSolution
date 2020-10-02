@@ -59,101 +59,93 @@ public class PermutationInString {
     int[] str2Map = new int[26];
     int matched_chars = 0;
 
-    if(s1.length() > s2.length()) {
+    if (s1.length() > s2.length()) {
       return false;
     }
 
     // Mark Maps
-    for(int i=0; i<s1.length(); i++) {
+    for (int i = 0; i < s1.length(); i++) {
       str1Map[s1.charAt(i) - 'a']++;
       str2Map[s2.charAt(i) - 'a']++;
     }
 
     // Find count of matched chars
-    for(int i=0; i<26; i++) {
-      if(str1Map[i] != 0) {
+    for (int i = 0; i < 26; i++) {
+      if (str1Map[i] != 0) {
         matched_chars += Math.min(str1Map[i], str2Map[i]);
       }
     }
 
+    //    System.out.println(matched_chars);
+    //    System.out.println(s2.substring(0, ( 0+ s1.length())) +  " Matched Chars: " + matched_chars);
 
-//    System.out.println(matched_chars);
-//    System.out.println(s2.substring(0, ( 0+ s1.length())) +  " Matched Chars: " + matched_chars);
+    for (int i = 1; i < (s2.length() - s1.length()) + 1; i++) {
+      //      String str = s2.substring(i, (i + s1.length()));
+      //      System.out.print( str +  " Matched Chars: " + matched_chars + " ");
 
-
-    for(int i=1; i< (s2.length() - s1.length()) + 1; i++) {
-//      String str = s2.substring(i, (i + s1.length()));
-//      System.out.print( str +  " Matched Chars: " + matched_chars + " ");
-
-      int prevCharIndex = s2.charAt(i-1) - 'a';
+      int prevCharIndex = s2.charAt(i - 1) - 'a';
       int newCharIndex = s2.charAt(i + s1.length() - 1) - 'a';
 
-
-      if(matched_chars == s1.length()) {
+      if (matched_chars == s1.length()) {
         break;
       }
 
       // Check new character present in original string
-      if(str1Map[newCharIndex] != 0) {
-
+      if (str1Map[newCharIndex] != 0) {
         // Previous count of the new character in s2 is smaller than s1
         // then increment match_count
-        if(str2Map[newCharIndex] < str1Map[newCharIndex]) {
-            matched_chars++;
+        if (str2Map[newCharIndex] < str1Map[newCharIndex]) {
+          matched_chars++;
         }
         str2Map[newCharIndex]++;
       }
 
       // Check old character present in original string
-      if(str1Map[prevCharIndex] != 0) {
-
+      if (str1Map[prevCharIndex] != 0) {
         // Previous count of the old character in s2 is smaller than or equal to s1
         // then increment match_count
-        if(str2Map[prevCharIndex] <= str1Map[prevCharIndex]) {
+        if (str2Map[prevCharIndex] <= str1Map[prevCharIndex]) {
           matched_chars--;
         }
 
         str2Map[prevCharIndex]--;
       }
-
-
-//      System.out.print("Char:(" + s2.charAt(i-1) + ", " + s2.charAt(i + s1.length() - 1) + ")" + " count: [" + str2Map[prevCharIndex] + " ," + str2Map[newCharIndex] + "] " +" matched-char: " + matched_chars + " actual: " + matchedChars(str, s1) ) ;
-//      System.out.println();
+      //      System.out.print("Char:(" + s2.charAt(i-1) + ", " + s2.charAt(i + s1.length() - 1) + ")" + " count: [" + str2Map[prevCharIndex] + " ," + str2Map[newCharIndex] + "] " +" matched-char: " + matched_chars + " actual: " + matchedChars(str, s1) ) ;
+      //      System.out.println();
 
     }
 
-    if(matched_chars == s1.length()) {
+    if (matched_chars == s1.length()) {
       return true;
     }
 
     return false;
   }
 
-
   public int matchedChars(String s1, String s2) {
     int[] arr1 = new int[26];
     int[] arr2 = new int[26];
     int count = 0;
 
-    for(int i=0; i<s1.length(); i++) {
-         arr1[s1.charAt(i) - 'a']++;
+    for (int i = 0; i < s1.length(); i++) {
+      arr1[s1.charAt(i) - 'a']++;
     }
 
-    for(int i=0; i<s2.length(); i++) {
+    for (int i = 0; i < s2.length(); i++) {
       arr2[s2.charAt(i) - 'a']++;
     }
 
-    for(int i=0; i<26; i++) {
-       count+= Math.min(arr1[i], arr2[i]);
+    for (int i = 0; i < 26; i++) {
+      count += Math.min(arr1[i], arr2[i]);
     }
     return count;
   }
 
   public static void main(String[] args) {
-      String str1 = "ab";
-      String str2 = "abc";
+    String str1 = "ab";
+    String str2 = "abc";
 
-      PermutationInString ps = new PermutationInString();
-      System.out.println(ps.checkInclusionSlidingWindow(str1, str2));
+    PermutationInString ps = new PermutationInString();
+    System.out.println(ps.checkInclusionSlidingWindow(str1, str2));
   }
 }

@@ -6,7 +6,12 @@ import java.util.List;
 
 public class LeftMostColumnWithOnce {
 
-  public int binarySearchLeftMost(BinaryMatrix binaryMatrix, int start, int end, int row) {
+  public int binarySearchLeftMost(
+    BinaryMatrix binaryMatrix,
+    int start,
+    int end,
+    int row
+  ) {
     int index = binarySearch(binaryMatrix, start, end, row, 1);
 
     if (index == -1) {
@@ -20,7 +25,13 @@ public class LeftMostColumnWithOnce {
     }
   }
 
-  private int binarySearch(BinaryMatrix binaryMatrix, int start, int end, int row, int target) {
+  private int binarySearch(
+    BinaryMatrix binaryMatrix,
+    int start,
+    int end,
+    int row,
+    int target
+  ) {
     if (start <= end) {
       int mid = (start + end) / 2;
       int midValue = binaryMatrix.get(row, mid);
@@ -48,11 +59,18 @@ public class LeftMostColumnWithOnce {
       } else {
         // else check from 1 to end or 1 to previousLeftMostIndex
         int end = leftMostColIndex == -1 ? (C - 1) : (leftMostColIndex - 1);
-        int currentLeftMostIndex = binarySearchLeftMost(binaryMatrix, 1, end, i);
+        int currentLeftMostIndex = binarySearchLeftMost(
+          binaryMatrix,
+          1,
+          end,
+          i
+        );
         leftMostColIndex = MIN(leftMostColIndex, currentLeftMostIndex);
       }
 
-      System.out.println("For row: " + i + " leftMost Index: " + leftMostColIndex);
+      System.out.println(
+        "For row: " + i + " leftMost Index: " + leftMostColIndex
+      );
       i++;
     }
 
@@ -77,7 +95,7 @@ public class LeftMostColumnWithOnce {
       { 0, 0, 1, 1, 1, 1 },
       { 0, 1, 1, 1, 1, 1 },
       { 0, 0, 0, 0, 0, 0 },
-      { 0, 0, 0, 0, 0, 1 }
+      { 0, 0, 0, 0, 0, 1 },
     };
 
     BinaryMatrix binaryMatrix = new BinaryMatrix(mat);

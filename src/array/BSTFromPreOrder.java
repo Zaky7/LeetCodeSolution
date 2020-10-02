@@ -33,7 +33,8 @@ class BSTFromPreOrder {
       root.left = null;
     } else {
       root.right = bstFromPreorderUtil(preorder, nextGreaterIndex, end);
-      root.left = bstFromPreorderUtil(preorder, start + 1, nextGreaterIndex - 1);
+      root.left =
+        bstFromPreorderUtil(preorder, start + 1, nextGreaterIndex - 1);
     }
 
     return root;

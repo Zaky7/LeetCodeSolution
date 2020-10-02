@@ -5,7 +5,7 @@ Given two words word1 and word2, find the minimum number of operations required 
 ```java
     Input: word1 = "horse", word2 = "ros"
     Output: 3
-    Explanation: 
+    Explanation:
     horse -> rorse (replace 'h' with 'r')
     rorse -> rose (remove 'r')
     rose -> ros (remove 'e')
@@ -17,31 +17,29 @@ Given two words word1 and word2, find the minimum number of operations required 
 
 - Else consider all there operation (Insert, Remove, Replace) on the last character of first string and compute minimum operation of 3 values
 
-
 ### 1. Recursive Solution
 
 ```java
 
-public static int editDist(String str1, String str2, int m, int n) 
-    { 
+public static int editDist(String str1, String str2, int m, int n)
+    {
         // if one of the strings is empty
         if(n * m == 0) {
             return n + m;
         }
-            
+
         if(str1.charAt(m - 1) == str2.charAt(n - 1)) {
-            return editDist(str1, str2, m - 1, n - 1); 
-        } 
- 
-        // minimum of three values. 
+            return editDist(str1, str2, m - 1, n - 1);
+        }
+
+        // minimum of three values.
         return 1 + min(
-            editDist(str1, str2, m, n - 1), 
-            editDist(str1, str2, m - 1, n),  
+            editDist(str1, str2, m, n - 1),
+            editDist(str1, str2, m - 1, n),
             editDist(str1, str2, m - 1, n - 1)
-          ); 
+          );
     }
 ```
-
 
 ### 2. Dp Solution
 
@@ -75,7 +73,6 @@ public static int editDist(String str1, String str2, int m, int n)
     }
 ```
 
-
 ### 3. Dp Solution with memory optimised 🙄 Caveat
 
 ⚠️ Not memory efficient!!! consumes more memory than previous one
@@ -106,5 +103,3 @@ public int minDistanceDpMemoryOptimisedFake(String word1, String word2) {
         return dp[computeRow(R)][C];
     }
 ```
-
-

@@ -106,7 +106,7 @@ public class MaxWidth {
       null,
       null,
       null,
-      null
+      null,
     };
 
     // Add the Element in the Array
@@ -115,6 +115,8 @@ public class MaxWidth {
 
     // Get the root
     TreeNode root = bTree.root();
-    System.out.println("Max width of binary Tree: " + mw.widthOfBinaryTree(root));
+    System.out.println(
+      "Max width of binary Tree: " + mw.widthOfBinaryTree(root)
+    );
   }
 }
