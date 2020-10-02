@@ -13,19 +13,17 @@ class CombinationSum {
     int currentSum,
     int targetSum
   ) {
-    if (currentSum == targetSum) {
-      result.add(new ArrayList<>(temp));
-      temp = new ArrayList<>();
-      currentSum = 0;
-      return;
-    } else if (currentSum > targetSum) {
+    if (currentSum >= targetSum) {
+      if(currentSum == targetSum) {
+         result.add(new ArrayList<>(temp));
+      }
       return;
     } else {
       for (int i = start; i < num.length; i++) {
         currentSum += num[i];
         temp.add(num[i]);
+        System.out.println("start: " + start + " i: " + i + " currentSum: " + currentSum +  " temp: " + temp.toString() + " result: " + result.toString());
         combinationSumUtil(i, num, temp, result, currentSum, targetSum);
-
         currentSum -= num[i];
         temp.remove(temp.size() - 1);
       }
@@ -40,7 +38,7 @@ class CombinationSum {
   }
 
   public static void main(String[] args) {
-    int[] num = { 2, 3, 5 };
+    int[] num = { 2, 3};
     int targetSum = 8;
     CombinationSum cs = new CombinationSum();
     List<List<Integer>> result = cs.combinationSum(num, targetSum);

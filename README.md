@@ -1,12 +1,13 @@
 ![Language](https://img.shields.io/badge/Language-[Java]-orange.svg?logo=[Java]&logoColor=yellow) ![Update](https://img.shields.io/badge/Update-Weekly-green.svg) ![Progress](https://img.shields.io/badge/progress-N%2F1049-brightgreen.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Sponsors](https://img.shields.io/badge/Sponsor-0-lightgrey.svg)
 
-### LeetCode Problems
+## LeetCode Problems
 
 
-##### [Problems 0-100]
-| # | Title | Solution | Difficulty | Docs |
+#### [Problems Array]
+| Code | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[[Java]](./src/array/TwoSum.java)|Easy|[[Docs]](./src/arrayDoc/TwoSum.md)
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[[Java]](src/array/ThreeSum.java)|Medium|[[Docs]](./src/arrayDoc/ThreeSum.md)
 |19 |[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[[Java]](./src/linkedList/RemoveNthNodeFromEnd.java)|Medium|[[Docs]](./src/linkedListDoc/RemoveNthNodeFromEnd.md)
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[[Java]](./src/array/SearchInSortedArray.java)|Medium|[[Docs]](./src/arrayDoc/SearchInSortedArray.md)
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[[Java]](./src/array/RotateImage.java)|Medium|[[Docs]](./src/arrayDoc/RotateImage.md)
@@ -14,6 +15,12 @@
 |60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)|[[Java]](./src/string/PermutationSequence.java)|Medium|[[Docs]](./src/stringDoc/PermutationSequence.md)
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[[Java]](./src/recursionOrDp/EditDistance.java)|Hard|[[Docs]](./src/recursionOrDpDoc/EditDistance.md)
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[[Java]](./src/linkedList/PartitionList.java)|Medium|[[Docs]](./src/linkedListDoc/PartitionList.md)
+
+#### BackTracking
+
+| Code | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|39|[CombinationSum](https://leetcode.com/problems/combination-sum/)|[[Java]](./src/array/CombinationSum.java)|Medium|[[Docs]](./src/arrayDoc/CombinationSum.md)
 
 
 ##### [Problems 100-200]
@@ -118,13 +125,10 @@
 
 
 
-| # | Title | Solution | Difficulty | Docs |
-|---| ----- | -------- | ---------- | ---- |
-|15|[3Sum](https://leetcode.com/problems/3sum/)|[[Java]](src/array/ThreeSum.java)|Medium|[[Docs]](./src/arrayDoc/ThreeSum.md)
 
 
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
-|39|[CombinationSum](https://leetcode.com/problems/combination-sum/)|[[Java]](./src/array/CombinationSum.java)|Medium|[[Docs]](./src/arrayDoc/CombinationSum.md)
+
 
 
