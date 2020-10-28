@@ -37,12 +37,15 @@ class CombinationSum {
     return result;
   }
 
+
   public static void main(String[] args) {
-    int[] num = { 2, 3};
-    int targetSum = 8;
+    int[] num = {5,2,5,7} ;
+    int targetSum = 13;
     CombinationSum cs = new CombinationSum();
     List<List<Integer>> result = cs.combinationSum(num, targetSum);
-
     System.out.println(result.toString());
   }
+
+
+
 }

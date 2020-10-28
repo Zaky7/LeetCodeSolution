@@ -23,6 +23,12 @@
 |39|[CombinationSum](https://leetcode.com/problems/combination-sum/)|[[Java]](./src/array/CombinationSum.java)|Medium|[[Docs]](./src/arrayDoc/CombinationSum.md)
 
 
+#### Dynamic Programming
+| Code | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[[Java]](./src/dynamicProgramming/MinimumPathSum.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/MinimumPathSum.md)
+
+
 ##### [Problems 100-200]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
@@ -56,6 +62,7 @@
 |681|[Next Closest Time ](https://leetcode.com/problems/next-closest-time)|[[Java]](./600-700q/681.java)|Medium|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[[Java]](./src/array/TopKFrequentWords.java)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[[Java]](./src/tree/maxwidth/MaxWidth.java)|Medium|[[Docs]](./src/tree/maxwidth/maxWidth.md)
+
 
 
 
@@ -131,4 +138,8 @@
 |---| ----- | -------- | ---------- | ---- |
 
 
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|[[Java]](./src/dynamicProgramming/AndroidUnlockPatterns.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/AndroidUnlockPatterns.md)
 
