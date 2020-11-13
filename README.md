@@ -143,3 +143,18 @@
 |---| ----- | -------- | ---------- | ---- |
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|[[Java]](./src/dynamicProgramming/AndroidUnlockPatterns.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/AndroidUnlockPatterns.md)
 
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|394|[Decode String](https://leetcode.com/problems/decode-string/)|[[Java]](./src/string/DecodeString.java)|Medium|[[Docs]](./src/stringDoc/DecodeString.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[[Java]](./src/string/MostCommonWord.java)|Easy|[[Docs]](./src/stringDoc/MostCommonWord.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[[Java]](./src/recursion/GenerateParentheses.java)|Medium|[[Docs]](./src/recursionDoc/GenerateParentheses.md)
+
+
