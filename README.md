@@ -143,3 +143,13 @@
 |---| ----- | -------- | ---------- | ---- |
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|[[Java]](./src/dynamicProgramming/AndroidUnlockPatterns.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/AndroidUnlockPatterns.md)
 
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|994|[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[[Java]](./src/breadth-firstSearch/RottingOranges.java)|Medium|[[Docs]](src/breadthFirstSearchDoc/RottingOranges.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/)|[[Java]](src/breadthFirstSearch/WallsAndGates.java)|Medium|[[Docs]](src/breadthFirstSearchDoc/WallsAndGates.md)
+
+
