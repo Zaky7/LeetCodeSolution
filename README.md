@@ -158,3 +158,51 @@
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[[Java]](./src/recursion/GenerateParentheses.java)|Medium|[[Docs]](./src/recursionDoc/GenerateParentheses.md)
 
 
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|1167|[ Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)|[[Java]](./src/heap/MinimumCostToConnectSticks.java)|Medium|[[Docs]](./src/heapDoc/MinimumCostToConnectSticks.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|1674|[Minimum Moves to Make Array Complementary](https://leetcode.com/problems/minimum-moves-to-make-array-complementary/)|[[Java]](./src/greedy/MinimumMovesToMakeArrayComplementary.java)|Medium|[[Docs]](./src/greedyDoc/MinimumMovesToMakeArrayComplementary.md)
+
+
+activity-stream-service
+"so-oncehub-service","oh-2fa","oh-field-service","oh-billing","oh-contact",
+"ns-notification-service","ns-queue-service","exchange-sync-service","idp","oh-account-monitoring-cornjob","so-renewal-and-failure-service","oh-account-hard-deletion-service","ns-cron-service"
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[[Java]](./src/dynamicProgramming/NumberOfDiceRollsWithTargetSum.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/NumberOfDiceRollsWithTargetSum.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[[Java]](./src/heap/TopKFrequentElements.java)|Medium|[[Docs]](./src/heapDoc/TopKFrequentElements.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|653|[Two Sum Input BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[[Java]](./src/binarySearch/TwoSumInputBST.java)|Easy|[[Docs]](./src/binarySearchDoc/TwoSumInputBST.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|214|[shortest palindrome](https://leetcode.com/problems/shortest-palindrome/)|[[Java]](./src/dynamicProgramming/ShortestPalindrome.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/ShortestPalindrome.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|647|[palindromic substrings](https://leetcode.com/problems/palindromic-substrings/submissions/)|[[Java]](./src/dynamicProgramming/PalindromicSubstrings.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/PalindromicSubstrings.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|746|[min-cost-climbing-stairs](https://leetcode.com/problems/min-cost-climbing-stairs/submissions/)|[[Java]](./src/dynamicProgramming/Min-cost-climbing-stairs.java)|Easy|[[Docs]](./src/dynamicProgrammingDoc/Min-cost-climbing-stairs.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[[Java]](./src/dynamicProgramming/LongestPalindromicSubstring.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/LongestPalindromicSubstring.md)
+
+

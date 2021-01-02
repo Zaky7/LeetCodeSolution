@@ -38,7 +38,7 @@ class DeleteAndEarn {
   public int deleteAndEarn(int[] nums) {
     int n = nums.length;
 
-    if (n == 0) {
+    if(n == 0) {
       return 0;
     }
 
@@ -46,8 +46,8 @@ class DeleteAndEarn {
     int[] pointsEarnedDp = getPointsEarnedByIndexArr(numCountMap);
     int[] numArr = getPointsNumArr(numCountMap);
 
-    System.out.println(Arrays.toString(numArr));
-    System.out.println(Arrays.toString(pointsEarnedDp));
+    // System.out.println(Arrays.toString(numArr));
+    // System.out.println(Arrays.toString(pointsEarnedDp));
 
     for (int i = 1; i < pointsEarnedDp.length; i++) {
       int points = pointsEarnedDp[i];
@@ -65,6 +65,35 @@ class DeleteAndEarn {
 
     int maxPointsEarned = Arrays.stream(pointsEarnedDp).max().getAsInt();
     return maxPointsEarned;
+  }
+
+  public int deleteAndEarnDp(int[] nums) {
+    int maxElement = Integer.MIN_VALUE;
+    int n  = nums.length;
+
+    if(n == 0) {
+        return 0;
+    }
+
+    for(int i=0; i<n; i++) {
+        maxElement = Math.max(maxElement, nums[i]);
+    }
+
+    int[] occur = new int[maxElement + 1];
+    for(int i=0; i< nums.length; i++) {
+        occur[nums[i]] += 1;
+    }
+
+    // System.out.println("Max Element: " + maxElement + " ele: " + Arrays.toString(occur));
+
+    for(int i=2; i<= maxElement; i++) {
+      // Current value depends of factor
+      // If previous count vs current values count * current + previous - 2 count
+      occur[i] = Math.max(occur[i-1], occur[i-2] + occur[i] * i);
+    }
+
+    // System.out.println(Arrays.toString(occur));
+    return occur[maxElement];
   }
 
   public static void main(String[] args) {
