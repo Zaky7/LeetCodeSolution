@@ -1,5 +1,8 @@
 package dynamicProgramming;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 class NumberOfDiceRollsWithTargetSum {
 
     public long findWays(int f, int d, int T){
@@ -31,5 +34,9 @@ class NumberOfDiceRollsWithTargetSum {
         NumberOfDiceRollsWithTargetSum nr = new NumberOfDiceRollsWithTargetSum();
         int ways = (int) nr.findWays(f,d,T);
         System.out.println("Ways: " + ways);
+
+
+        Deque<Integer> queue = new LinkedList<>();
+
     }
 }
