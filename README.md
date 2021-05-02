@@ -56,6 +56,7 @@
 ##### [Problems 600-700]
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
+|623|[Add One Row to Tree](	https://leetcode.com/problems/add-one-row-to-tree/)|[[Java]](./src/tree/AddOneRowToTree.java)|Medium|[[Docs]](./src/treeDoc/AddOneRowToTree.md)
 |673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence)|[[Java]](./600-700q/673.java)|Medium|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence)|[[Java]](./600-700/674.java)|Easy|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[[Java]](./src/array/SquaresOfSortedArray.java)|Medium|[[Docs]](./src/array/SquaresOfSortedArray.md)
@@ -204,5 +205,28 @@ activity-stream-service
 | # | Title | Solution | Difficulty | Docs |
 |---| ----- | -------- | ---------- | ---- |
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[[Java]](./src/dynamicProgramming/LongestPalindromicSubstring.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/LongestPalindromicSubstring.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|1673|[Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)|[[Java]](./src/heap/FindTheMostCompetitiveSubsequence.java)|Medium|[[Docs]](./src/heapDoc/FindTheMostCompetitiveSubsequence.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)|[[Java]](./src/dynamicProgramming/PartitionToKEqualSumSubsets.java)|Medium|[[Docs]](./src/dynamicProgrammingDoc/PartitionToKEqualSumSubsets.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[[Java]](./src/hashTable/LongestHarmoniousSubsequence.java)|Easy|[[Docs]](./src/hashTableDoc/LongestHarmoniousSubsequence.md)
+
+
+| # | Title | Solution | Difficulty | Docs |
+|---| ----- | -------- | ---------- | ---- |
+|547|[Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[[Java]](./src/unionFind/NumberOfProvinces.java)|Medium|[[Docs]](./src/unionFindDoc/NumberOfProvinces.md)
+
+
+
 
 

@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package src.dynamicProgramming;
 
 class LongestPalindromicSubstring {
 

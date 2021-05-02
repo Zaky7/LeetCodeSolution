@@ -1,7 +1,9 @@
-package tree;
+package src.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+
+import src.tree.TreeNode;
 
 public class BinaryTree {
   private TreeNode root;
