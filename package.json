@@ -26,6 +26,6 @@
     "mkdirp": "^1.0.4",
     "ora": "^4.0.4",
     "prettier": "^2.0.5",
-    "prettier-plugin-java": "^0.8.2"
+    "prettier-plugin-java": "^2.1.0"
   }
 }
